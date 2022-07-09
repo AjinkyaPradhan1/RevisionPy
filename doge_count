@@ -1,0 +1,11 @@
+def doge_count(str):
+    count = 0
+    
+    if len(str)>=4:
+        for i in range(len(str)):
+            if str[i:i+2].lower()=="do" and str[i+3].lower()=="e":
+                count = count+1
+                
+        return count
+    else:
+        return 0
