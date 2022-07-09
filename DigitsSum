@@ -1,0 +1,8 @@
+def digitsSum(N):
+    x = [int(a) for a in str(N)]
+
+    for val in x:
+        total = sum(x)
+    return total
+        
+print(digitsSum(25))
