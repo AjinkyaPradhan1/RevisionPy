@@ -1,0 +1,4 @@
+def boom(str):
+    if (str.endswith("boom")):
+        return True
+    return False
