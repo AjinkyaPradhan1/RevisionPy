@@ -1,0 +1,4 @@
+def copyCat(str):
+    strEnd = str[len(str)-2:len(str)]
+    strNew = strEnd*3
+    return strNew
