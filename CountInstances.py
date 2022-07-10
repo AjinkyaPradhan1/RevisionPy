@@ -1,10 +1,12 @@
 #  Print without duplicates
 
+list1 = [21.54,45,65,54,56,54,65,76,8,9,65,32,43,12,21]
 
-list1 = [1,2,3,4,5,6,7,8,9,1,2,3,4,5,6,1,2,3,4,5,1,2,34,1,2,3,1,2,1]
+list2 = []
 
-for i in range(len(list1)):
-    num = list1.count(i)
-    
-    if(num>1):
-        print("Number of times list has {}: ".format(i),list1.count(i))
+for i in list1:
+    if i not in list2:
+        list2.append(i)
+        
+
+print("List2: ",list2)
