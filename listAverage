@@ -1,0 +1,25 @@
+#https://practice.geeksforgeeks.org/contest/fork-python-module-5/problems/#
+
+mylist1 = [1, 1, 5, 5,10, 7, 8]
+
+def avg(mylist1):
+   
+    mylist2 = []
+    count = 0
+    
+    a = max(mylist1)
+    b = min(mylist1)
+    
+    for a in mylist1:
+        if a in mylist1:
+            num = mylist1.count(a)
+        
+        
+        
+        if a not in mylist2:
+            if(num>=1):
+                mylist2.append(a)
+    mylist2.sort()
+    return mylist2
+
+print(avg(mylist1))
